@@ -34,10 +34,10 @@ h1 {
 .score_list {
   border: solid 1px #000;
 }
- 
+
 .score_list li {
   list-style: none;
-  font-size: 1 em;
+  font-size: 1em;
   font-weight: bold;
   padding: 2px 0;
 }
@@ -55,9 +55,3 @@ h1 {
   border: solid 3px #000;
   box-shadow: 4px 2px #000;
 }
-
-
-
-
-
-
