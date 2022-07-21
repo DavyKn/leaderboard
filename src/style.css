@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.flex_row {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.scores {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.recent_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.refresh {
+  border: solid 3px #000;
+  box-shadow: 4px 2px #000;
+}
+
+.score_list {
+  border: solid 1px #000;
+}
+
+.score_list li {
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+.add_list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 30%;
+}
+
+.submit {
+  width: fit-content;
+  align-self: flex-end;
+  border: solid 3px #000;
+  box-shadow: 4px 2px #000;
+}
