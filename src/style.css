@@ -49,6 +49,12 @@ h1 {
   width: 30%;
 }
 
+.form_submission {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .submit {
   width: fit-content;
   align-self: flex-end;
