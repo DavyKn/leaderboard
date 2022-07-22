@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(./fabrice-villard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -11,7 +14,8 @@ h1 {
 .flex_row {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 100px;
+  margin-right: 200px;
 }
 
 .scores {
@@ -23,7 +27,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  margin-right: 5px;
 }
 
 .refresh {
@@ -32,14 +36,26 @@ h1 {
 }
 
 .score_list {
-  border: solid 1px #000;
+  border: solid 2px #000;
+  border-radius: 4px;
+  padding: 0;
 }
 
-.score_list li {
+.score_list .scores_li {
   list-style: none;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
-  padding: 2px 0;
+  padding: 3px 10px;
+}
+
+.scores_li:nth-child(odd) {
+  background-color: #fff;
+  color: #000;
+}
+
+.scores_li:nth-child(even) {
+  background-color: #efe2e273;
+  color: #000;
 }
 
 .add_list {
@@ -53,6 +69,17 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.name,
+.score {
+  border: solid 2px #000;
+  border-radius: 4px;
+}
+
+#notify {
+  color: #491fd683;
+  font-style: italic;
 }
 
 .submit {
